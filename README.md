@@ -7,9 +7,13 @@ This is based on a Udemy's course [Typescript: The Complete Developer Guide](htt
 #### Section 1
 
 - `Typescript` = `Javascript` + `A type system`
+
 - TS Type System is only active _during development_
+
 - It doesn't provide any performance improvement
+
 - Node doesn't understand Typescript, Typescript compiler (`tsc`) compiles it to javascript which then Node or browser can execute
+
 - **Compiling & Running Typescript file**
   Doing it with preliminary Typescript compiler
 
@@ -33,5 +37,21 @@ This is based on a Udemy's course [Typescript: The Complete Developer Guide](htt
   }
   ```
 
-  
+- **Types**: Easy way to refer to the different `properties` & `methods` that a value has. 
+
+  - Primitive Types
+    1. `number`
+    2. `boolean`
+    3. `string`
+    4. `null`
+    5. `undefined`
+    6. `symbol`
+    7. `void`
+  - Object Types
+    1. `function`
+    2. `array`
+    3. `class`
+    4. `object`
+
+- Types allow other engineers to understand what values are flowing around our codebase
 
